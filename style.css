@@ -1,0 +1,58 @@
+body {
+    text-align: center;
+    background-color: bisque;
+
+
+}
+
+#i {
+    width: 1250px;
+    height: 200px;
+
+}
+
+#welcome {
+    background-color: azure;
+
+    font-size: 50px;
+    z-index: 9;
+    font-family: sans-serif ;
+
+
+}
+
+#bio {
+    font-size: 25px;
+    background-color: blanchedalmond;
+    font-family: monospace;
+
+
+}
+.menu{
+  list-style: none;
+    position: absolute;
+    top: 10 px ;
+    right: 30 px;
+    z-index: 10 ;
+      cursor:pointer;
+    font-family: fantasy;
+    
+    
+    
+}
+.link{
+    float: left;
+    font-size: 20;
+    color:floralwhite;
+    padding-left: 9 px;
+    padding-bottom: 5px;
+    padding-right:  9px;
+    padding-top:  5 px;
+}
+.link:hover{
+    background-color: crimson;
+}
+html{
+  scroll-behavior: smooth;
+    
+}
