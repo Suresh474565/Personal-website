@@ -7,7 +7,7 @@ body {
 
 #i {
     width: 1250px;
-    height: 200px;
+    height: 1000px;
 
 }
 
@@ -30,7 +30,7 @@ body {
 }
 .menu{
   list-style: none;
-    position: absolute;
+    position: fixed;
     top: 10 px ;
     right: 30 px;
     z-index: 10 ;
@@ -43,7 +43,7 @@ body {
 .link{
     float: left;
     font-size: 20;
-    color: darkkhaki;
+    color:floralwhite;
     padding-left: 9 px;
     padding-bottom: 5px;
     padding-right:  9px;
@@ -51,4 +51,20 @@ body {
 }
 .link:hover{
     background-color: crimson;
+}
+html{
+  scroll-behavior: smooth;
+    
+}
+img{
+transition: transform.2s;
+    
+    
+    
+}
+#owngame:hover{
+    transform: scale(.8)
+}
+#ticktacktoe:hover{
+    transform: scale(.8)
 }
