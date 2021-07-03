@@ -6,53 +6,93 @@ body {
 }
 
 #i {
-    width: 1250px;
-    height: 200px;
+    width: 1200px;
+    height: 850px;
 
 }
 
 #welcome {
-    background-color: azure;
+    background-color: cadetblue;
 
     font-size: 50px;
-    z-index: 9;
-    font-family: sans-serif ;
+
+    font-family: sans-serif;
+
+
+}
+
+#none {
+    background-color: cadetblue;
+    font-size: 50px;
 
 
 }
 
 #bio {
     font-size: 25px;
-    background-color: blanchedalmond;
+    background-color: cadetblue;
     font-family: monospace;
 
 
 }
-.menu{
-  list-style: none;
-    position: absolute;
-    top: 10 px ;
-    right: 30 px;
-    z-index: 10 ;
-      cursor:pointer;
-    font-family: fantasy;
-    
-    
+
+.menu {
+    list-style: none;
     
 }
-.link{
+
+
+}
+
+.link {
+    display: inline;
     float: left;
-    font-size: 20;
-    color:floralwhite;
+    font-size: 2500 px;
+    color: floralwhite;
     padding-left: 9 px;
-    padding-bottom: 5px;
-    padding-right:  9px;
-    padding-top:  5 px;
+    padding-bottom: 5 px;
+    padding-right: 9 px;
+    padding-top: 5 px;
 }
-.link:hover{
-    background-color: crimson;
-}
-html{
-  scroll-behavior: smooth;
     
+
+
+
+
+
+
+.link:hover {
+    color: black;
+}
+
+html {
+    scroll-behavior: smooth;
+
+}
+
+img {
+    transition: transform.2s;
+
+
+
+}
+
+#owngame:hover {
+    transform: scale(.8)
+}
+
+#ticktacktoe:hover {
+    transform: scale(.8)
+}
+
+.qw {
+    width: 25px;
+    height: 10px;
+
+}
+
+h1 {
+
+
+    font-size: 75px;
 }
