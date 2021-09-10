@@ -15,8 +15,10 @@ body {
     background-color: cadetblue;
 
     font-size: 50px;
-
+    z-index: 9;
     font-family: sans-serif;
+    
+        
 
 
 }
@@ -37,7 +39,13 @@ body {
 }
 
 .menu {
-    list-style: none;
+    list-style:none; 
+    font-family: sans-serif; 
+    position:fixed; 
+    top:10px; 
+    z-index: 10; 
+    cursor: pointer;
+    
     
 }
 
@@ -45,7 +53,7 @@ body {
 }
 
 .link {
-    display: inline;
+    
     float: left;
     font-size: 2500 px;
     color: floralwhite;
@@ -62,7 +70,8 @@ body {
 
 
 .link:hover {
-    color: black;
+    background-color: bisque;
+    transform: scale(.9);
 }
 
 html {
@@ -78,11 +87,11 @@ img {
 }
 
 #owngame:hover {
-    transform: scale(.8)
+    transform: scale(.8);
 }
 
 #ticktacktoe:hover {
-    transform: scale(.8)
+    transform: scale(.8);
 }
 
 .qw {
